@@ -1,4 +1,4 @@
-FROM php:7.1-cli
+FROM php:7.3.32-cli
 
 ENV OAI_SPEC_URL="https://raw.githubusercontent.com/sendgrid/sendgrid-oai/master/oai_stoplight.json"
 ENV SENDGRID_API_KEY $SENDGRID_API_KEY
